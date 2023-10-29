@@ -1,0 +1,49 @@
+/* Add this CSS to your christmas_theme_login.css file */
+
+body {
+    font-family: 'Mountains of Christmas', cursive;
+    color:white;
+    text-align: center;
+    background-image: url('Christmasbackground.jpg'); /* Add your background image file here */
+    background-size: repeat;
+    margin: 0;
+    padding: 0;
+    cursor: url('Cursors.png'), auto;
+    
+}
+.video-container {
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
+/* Styling for unvisited links */
+a:link {
+    color: green;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Styling for visited links */
+a:visited {
+    color: red;
+}
+
+/* Hover effect when mouse is over the link */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: red; /* Change color to red on hover */
+}
+
+/* Your existing CSS goes here */
+
+.go-back-link {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px; /* Add some space between the video and the link */
+    color: green; /* Set link color to green */
+    text-decoration: none; /* Remove underline */
+}

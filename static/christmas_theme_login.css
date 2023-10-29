@@ -1,0 +1,63 @@
+/* Add this CSS to your christmas_theme_login.css file */
+
+body {
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    background-image: url('Christmasbackground.jpg'); /* Add your background image file here */
+    background-size: repeat;
+    margin: 0;
+    padding: 0;
+    cursor: url('Cursors.png'), auto;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the text thicker */
+    color: green; /* Set the text color to green */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Mountains of Christmas', cursive;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: green;
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the text thicker */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ff0000; /* Set the button color to red */
+    color: #77dd77;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Add a transition effect for hover */
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: bold; /* Make the text thicker */
+}
+
+input[type="submit"]:hover {
+    background-color: #990000; /* Darker red on hover */
+    color: green; /* Set text color to white on hover */
+}
+
+/* Add any additional styles you want here */
