@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/static/christmas_theme_login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form id="loginForm" onsubmit="submitForm(event)">
+        <label for="answer">What is the greatest TV show of all time?</label><br>
+        <input type="text" id="answer" name="answer"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            var answer = document.getElementById('answer').value;
+            if (answer.toLowerCase() === 'grimm') {
+                window.location.href = '/index';
+            } else {
+                window.location.href = '/grimm';
+            }
+        }
+    </script>
+</body>
+
+</html>
